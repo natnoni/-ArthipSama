@@ -23,12 +23,6 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/main.css" rel="stylesheet">
 
-    <form class="navbar-form navbar-right" action="searchresults.php" method="GET">
-        <div class="welcome"><?php echo "Welcome, <a href='profile.php'>".$_SESSION['username']."</a>!";?></div>
-
-        <a href="logout.php">Log Out <span class="glyphicon glyphicon-off" aria-hidden="true"></span></a>
-      </form>
-
 </head>
 
 <body class="bg">
@@ -97,31 +91,10 @@
     </section>
 
 
+    <?php 
+        require 'footer.php';
+    ?>
 
-    <footer>
-
-        <div class="footer-content">
-            <h3>code game sama</h3>
-            <p>ขอบคุณสำหรับการสั่งซื้อ เราจะปรับปรุงให้ดียิ่งขึ้นไปอีก
-                ก่อนจากกันไปอย่าลืมฝากติดตามและข่าวสารผ่าน<br>Fanpage : Arthip Sama Shop - รับเติมเกม Steam ราคาถูก
-                <br>ด้วยนะครับ ขอบคุณคร้าบบบ
-            </p>
-
-            <ul class="socials">
-                <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li> <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="footer-bottom">
-            <p>copyright &copy;2022 codeArthipSama. designed by <span>ArthipSama</span></p>
-        </div>
-    </footer>
-
-    <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
 </body>
 
 </html>

@@ -134,47 +134,20 @@
                 <label for="lastname">Last Name</label>
                 <input type="text" class="form-control" name="lastname" placeholder="Last Name" required>
               </div>
-
             </fieldset>
-          
           </div>
         </div>
 
-        
-        
         <a href="login.php">I have acoount</a>
         <input class="btn btn-primary" type="submit" name="register" value="Register">
 
-
-
-      </form>
-    </div><br><br><br>
-
+      </form></div><br><br><br>
   </section>
 
-  <footer>
-        
-        <div class="footer-content">
-            <h3>code game sama</h3>
-            <p>ขอบคุณสำหรับการสั่งซื้อ เราจะปรับปรุงให้ดียิ่งขึ้นไปอีก 
-                ก่อนจากกันไปอย่าลืมฝากติดตามและข่าวสารผ่าน<br>Fanpage : Arthip Sama Shop - รับเติมเกม Steam ราคาถูก   <br>ด้วยนะครับ ขอบคุณคร้าบบบ</p>
-            
-            <ul class="socials">
-                <li> <a href="https://www.facebook.com/ArthipSamaS/"target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li> <a href="https://twitter.com/samakung9"target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li> <a href="https://www.youtube.com/channel/UCHI7jBF3zWhBK_Z14hEyLAA"target="_blank"><i class="fa fa-youtube"></i></a></li>
-                <li> <a href="https://discord.gg/RWQEZSFDVr"target="_blank"><i class="fa fa-comments-o"></i></a></li>
-                <li> <a href="" onclick="alert('098-712-9295')"><i class="fa fa-mobile"></i></a></li>
-            </ul>
-        </div>
-
-        <div class="footer-bottom">
-            <p>copyright &copy;2022 codeArthipSama. designed by <span>ArthipSama</span></p>
-        </div>
-    </footer>
-
-    <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
-
+  <?php 
+        require 'footer.php';
+    ?>
+    
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 </body>
