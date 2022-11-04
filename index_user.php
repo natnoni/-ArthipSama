@@ -37,10 +37,10 @@
         <div class="bc-menu">
             <h3>หมวดหมู่สินค้า</h3>
             <ul>
-                <li><a href="#">บัตรเติมเงิน/บัตรเติมเกม</a></li>
-                <li><a href="#">คีย์เกม/ไอเทมในเกม</a></li>
-                <li><a href="#">ไอดีเกม มือถือ/PC</a></li>
-                <li><a href="#">โปรแกรม</a></li>
+                <li><a href="showProduct.php">บัตรเติมเงิน/บัตรเติมเกม</a></li>
+                <li><a href="showProduct.php">คีย์เกม/ไอเทมในเกม</a></li>
+                <li><a href="showProduct.php">ไอดีเกม มือถือ/PC</a></li>
+                <li><a href="showProduct.php">โปรแกรม</a></li>
             </ul>
         </div>
 
@@ -74,7 +74,20 @@
 
     </section>
 
-<p style="font-size: 1000px;">asdawd</p>
+    <center>
+    <br><br><br><br><br><br><br><br><br><br><br><p style="font-size: 30px;">สินค้าแนะนำ</p>
+    <section>
+    <div class="bc-show">
+            <a href="showProduct_user.php" target="_blank"  class="bc-show-items" >
+                <div class="bc-show-items-img">
+                    <img src="file_pd/1.png">
+                </div>
+                <br><p>[ ขายดี #1 ]</p>
+                <h5> SteamWallet THB </h5>
+            </a>
+    </section>
+</center>
+
     <footer>
         
         <div class="footer-content">

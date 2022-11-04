@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    
 
 </head>
 
 <body class="bg">
 
+    
 <section class="body-container">
         <div class="bc-menu">
             <h3>หมวดหมู่สินค้า</h3>
@@ -36,50 +36,11 @@
                 <li><a href="showProduct.php">โปรแกรม</a></li>
             </ul>
         </div>
-
-        <div class="slidershow middle">
-
-            <div class="slides">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-                <div class="slide s1">
-                    <img src="img/1.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="img/2.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="img/3.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="img/th.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-            </div>
+        <div class="bc-show-payment">
+            <img src="img/ปกวิธีซื้อ.png" width="600" </br>_________________________________________________________________________________________________
+            <img src="img/ขั้นตอน.png" width="600"/>
         </div>
     </section>
-
-<center>
-    <br><br><br><br><br><br><br><br><br><br><br><p style="font-size: 30px;">สินค้าแนะนำ</p>
-    <section>
-    <div class="bc-show">
-            <a href="showProduct.php" target="_blank"  class="bc-show-items" >
-                <div class="bc-show-items-img">
-                    <img src="file_pd/1.png">
-                </div>
-                <br><p>[ ขายดี #1 ]</p>
-                <h5> SteamWallet THB </h5>
-            </a>
-    </section>
-</center>
 
     <footer>
         

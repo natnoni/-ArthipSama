@@ -30,15 +30,15 @@
         <div class="bc-menu">
             <h3>หมวดหมู่สินค้า</h3>
             <ul>
-                <li><a href="#">บัตรเติมเงิน/บัตรเติมเกม</a></li>
-                <li><a href="#">คีย์เกม/ไอเทมในเกม</a></li>
-                <li><a href="#">ไอดีเกม มือถือ/PC</a></li>
-                <li><a href="#">โปรแกรม</a></li>
+                <li><a href="showProduct.php">บัตรเติมเงิน/บัตรเติมเกม</a></li>
+                <li><a href="showProduct.php">คีย์เกม/ไอเทมในเกม</a></li>
+                <li><a href="showProduct.php">ไอดีเกม มือถือ/PC</a></li>
+                <li><a href="showProduct.php">โปรแกรม</a></li>
             </ul>
         </div>
         <div class="bc-show-payment">
-            <img src="img/scb.png" width="600" />
-            <img src="img/kbank.png" width="600"/>
+            <img src="img/scb.png" width="600" </br>_________________________________________________________________________________________________
+            <img src="img/kbank.png" width="600"</br>_________________________________________________________________________________________________
             <img src="img/truewallet.png" width="600"/>
         </div>
     </section>
