@@ -41,41 +41,68 @@
           </ul>
       </div>
 
-        <div class="slidershow middle">
-<div class="slides">
-    <input type="radio" name="r" id="r1" checked>
-    <input type="radio" name="r" id="r2">
-    <input type="radio" name="r" id="r3">
-    <input type="radio" name="r" id="r4">
-    <div class="slide s1">
-        <img src="img/1.png" alt="">
-    </div>
-    <div class="slide">
-        <img src="img/2.png" alt="">
-    </div>
-    <div class="slide">
-        <img src="img/th.jpg" alt="">
-    </div>
-    <div class="slide">
-        <img src="img/4.png" alt="">
-    </div>
-</div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!--image slider start-->
+        <center><div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/4.png" alt="">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
 
-<div class="navigation">
-    <label for="r1" class="bar"></label>
-    <label for="r2" class="bar"></label>
-    <label for="r3" class="bar"></label>
-    <label for="r4" class="bar"></label>
-</div>
-</div>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function () {
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 3000);
+        </script>
 
     </section>
 
     <center>
-    <br><br><br><br><br><br><br><br><br><br><br><p style="font-size: 30px;">สินค้าแนะนำ</p>
+    <br><p style="font-size: 30px;">สินค้าแนะนำ</p>
     <section>
     <div class="bc-show">
-            <a href="showProduct_user.php" target="_blank"  class="bc-show-items" >
+            <a href="showProductByType_user.php" target="_blank"  class="bc-show-items" >
                 <div class="bc-show-items-img">
                     <img src="file_pd/1.png">
                 </div>
@@ -83,7 +110,7 @@
                 <h5> SteamWallet THB </h5>
             </a>
     </section>
-</center>
+</center><br>
 
     <?php 
         require 'footer.php';

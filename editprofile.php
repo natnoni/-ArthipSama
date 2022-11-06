@@ -16,6 +16,7 @@
     if($result = mysqli_query($con, $query)) {
 
       $_SESSION['prompt'] = "Profile Updated";
+
       header("location:profile.php");
       exit;
 
