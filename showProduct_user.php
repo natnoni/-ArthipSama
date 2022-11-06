@@ -20,22 +20,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
 
   </head>
 
   <body class="bg">
     
     <section class="body-container">
-    <div class="bc-menu">
-            <h3>หมวดหมู่สินค้า</h3>
-            <ul>
-                <li><a href="showProduct.php">บัตรเติมเงิน/บัตรเติมเกม</a></li>
-                <li><a href="showProduct.php">คีย์เกม/ไอเทมในเกม</a></li>
-                <li><a href="showProduct.php">ไอดีเกม มือถือ/PC</a></li>
-                <li><a href="showProduct.php">โปรแกรม</a></li>
-            </ul>
-        </div>
+
+
     <div class="bc-show">
       <div>
         <div>

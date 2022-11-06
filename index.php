@@ -27,15 +27,9 @@
 <body class="bg">
 
 <section class="body-container">
-        <div class="bc-menu">
-            <h3>หมวดหมู่สินค้า</h3>
-            <ul>
-                <li><a href="showProduct.php">บัตรเติมเงิน/บัตรเติมเกม</a></li>
-                <li><a href="showProduct.php">คีย์เกม/ไอเทมในเกม</a></li>
-                <li><a href="showProduct.php">ไอดีเกม มือถือ/PC</a></li>
-                <li><a href="showProduct.php">โปรแกรม</a></li>
-            </ul>
-        </div>
+        <?php
+            require 'type_pd.php';
+        ?>
 
         <div class="slidershow middle">
 

@@ -30,13 +30,16 @@
     
 <section class="body-container">
         <div class="bc-menu">
-            <h3>หมวดหมู่สินค้า</h3>
-            <ul>
-                <li><a href="showProduct.php">บัตรเติมเงิน/บัตรเติมเกม</a></li>
-                <li><a href="showProduct.php">คีย์เกม/ไอเทมในเกม</a></li>
-                <li><a href="showProduct.php">ไอดีเกม มือถือ/PC</a></li>
-                <li><a href="showProduct.php">โปรแกรม</a></li>
-            </ul>
+          <h3>หมวดหมู่สินค้า</h3>
+          <ul>
+              <li><?php foreach($resultPrdType as $rowPrdType) 
+              {  ?>
+            <a href="showProductByType_user.php?type_id=<?= 
+            $rowPrdType['type_id'];?>&name=<?= $rowPrdType['type_name'];?>" 
+            class="list-group-item list-group-item-action"> 
+            <?= $rowPrdType['type_name'];?></a>
+          <?php } ?></a></li>
+          </ul>
         </div>
         <div class="bc-show-payment">
             <img src="img/scb.png" width="600" </br>_________________________________________________________________________________________________

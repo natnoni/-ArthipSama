@@ -10,6 +10,11 @@
         $_SESSION['error'] = 'กรุณาเข้าสู่ระบบ!';
         header('location: login.php');
     }
+    require_once 'type_pd_user.php';
+    if (!isset($_SESSION['userid'])) {
+        $_SESSION['error'] = 'กรุณาเข้าสู่ระบบ!';
+        header('location: login.php');
+    }
 ?>
 
 <!DOCTYPE html>
