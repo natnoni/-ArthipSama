@@ -78,7 +78,13 @@ nav{
 
 .nav-user{
     font-size: 2rem;
-    color: #fff;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-cart{
+    font-size: 2rem;
+    color: white;
     cursor: pointer;
 }
 

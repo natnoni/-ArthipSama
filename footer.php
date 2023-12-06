@@ -5,22 +5,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+
+    <!-- <link rel="stylesheet" href="footer.scss"> -->
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="footer.css"> -->
 </head>
 <body>
     
-<footer>
+<!-- <footer class="footer">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4>As for us</h4>
+         <ul>
+           <li><a href="#">Please come again :D </a></li>
+           <li><a href="#"><img src="img/profile2.png" width="130px" alt="ชื่อโลโก้"></a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Questions</h4>
+         <ul>
+           <li><a href="#">คำถามพบบ่อย</a></li>
+           <li><a href="#">วิธีการจัดส่ง</a></li>
+           <li><a href="#">การรับประกัน</a></li>
+           <li><a href="#">สถานะสินค้า</a></li>
+           <li><a href="#">อัพเดตสินค้า</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Payment</h4>
+         <ul>
+            <li><a href="#"><img src="img/payment/1.jpg" width="100px" alt="ชื่อโลโก้"></a></li>
+            <li><a href="#"><img src="img/payment/2.png" width="100px" alt="ชื่อโลโก้"></a></li>
+            <li><a href="#"><img src="img/payment/3.png" width="100px" alt="ชื่อโลโก้"></a></li>
+            <li><a href="#"><img src="img/payment/4.png" width="100px" alt="ชื่อโลโก้"></a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>follow us</h4>
+         <div class="social-links">
+            <a href="https://www.facebook.com/arthipsamashop"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/ArthipSamaS"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/2002_arthip/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCX16sZgimBWOVXLVmj42qxg"><i class="fab fa-youtube"></i></a>
+          </div>          
+       </div>
+     </div>
+    </div>
+ </footer> -->
+
+    <!-- <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a> -->
+    <footer>
         
         <div class="footer-content">
             <h3>code game sama</h3>
@@ -40,8 +81,5 @@
             <p>copyright &copy;2022 codeArthipSama. designed by <span>ArthipSama</span></p>
         </div>
     </footer>
-
-    <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
-
 </body>
 </html>
