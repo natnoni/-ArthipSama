@@ -60,7 +60,6 @@
     </div>
  </footer> -->
 
-    <!-- <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a> -->
     <footer>
         
         <div class="footer-content">
@@ -80,6 +79,8 @@
         <div class="footer-bottom">
             <p>copyright &copy;2022 codeArthipSama. designed by <span>ArthipSama</span></p>
         </div>
+        <a class="btn-top" href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
+
     </footer>
 </body>
 </html>
